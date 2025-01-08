@@ -1,0 +1,20 @@
+@import url(header.css);
+@import url(hero.css);
+
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    min-height: 3000px;
+    padding-top: 80px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+  padding: 0 16px;
+}
