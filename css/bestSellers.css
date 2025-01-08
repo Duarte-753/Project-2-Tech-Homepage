@@ -18,5 +18,32 @@ section.best-sellers hr {
 }
 
 section.best-sellers .product-slider {
-    background-color: yellow;
+    margin-top: 76px;
+}
+
+section.best-sellers .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8px;
+}
+
+section.best-sellers .product-slider .product {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 33%;
+    text-align: center;
+    margin: 0 8px;
+    padding: 40px;
+}
+
+section.best-sellers .product-slider .product .product-info {
+    margin-top: 50px;
+}
+
+section.best-sellers .product-slider .product .product-info .categories {
+    color: #3e50e5;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 30px;
 }
