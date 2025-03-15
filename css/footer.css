@@ -35,6 +35,10 @@ footer .bottom-nav ul li a {
     display: block;
 }
 
+footer .bottom-nav ul li a:hover {
+    color: #3e50e5;
+}
+
 
 footer .copyright-text {
     color: white;

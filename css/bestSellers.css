@@ -38,7 +38,9 @@ section.best-sellers .product-slider .product {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
 }
+
 
 section.best-sellers .product-slider .product img {
     max-width: 100%;
@@ -118,5 +120,11 @@ section.best-sellers .product-slider .product .product-info button {
    font-weight: 700;
    letter-spacing: 0.4px;
    line-height: 24px;
+}
+
+section.best-sellers .product-slider .product:hover .product-info button{
+  color: #fff;
+  background-color: #3e50e5;
+  border: 1px solid #3e50e5;
 }
 
